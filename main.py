@@ -56,8 +56,7 @@ timer_thread.start()
 def get_elapsed_time():
     global elapsed_time
     return elapsed_time
-    
-           
+            
 game(get_elapsed_time)
 
 
