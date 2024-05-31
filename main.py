@@ -1,8 +1,7 @@
 # from flask import Flask, render_template, request
-# import random
+
 import time
 import threading
-
 
 # app = Flask(__name__)
 
@@ -32,7 +31,7 @@ def game(get_elapsed_time):
     for num in range(0,len(text1)):
         while true == True:
             type = input()
-            print(elapsed_time/num)
+            print(get_elapsed_time/num)
             if text1[num] == type:
                 break
             else:
